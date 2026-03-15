@@ -1,0 +1,9 @@
+function excited(name){
+    return name.toUpperCase() + "!!!";
+}
+
+function greetUser(name, formatter){
+    console.log("HELLO " + formatter(name));
+}
+
+greetUser("jide", excited);
